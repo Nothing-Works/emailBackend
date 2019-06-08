@@ -1,0 +1,21 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true, "semi": false }],
+    "semi": [2, "never"],
+    "no-console": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jest": true
+  }
+}
